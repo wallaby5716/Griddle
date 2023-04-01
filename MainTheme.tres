@@ -1,0 +1,27 @@
+[gd_resource type="Theme" load_steps=7 format=2]
+
+[ext_resource path="res://font/mononoki-Bold.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://font/mononoki-Regular.ttf" type="DynamicFontData" id=2]
+
+[sub_resource type="DynamicFont" id=2]
+size = 24
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=1]
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=3]
+size = 24
+font_data = ExtResource( 2 )
+
+[sub_resource type="DynamicFont" id=4]
+size = 24
+font_data = ExtResource( 1 )
+
+[resource]
+Button/fonts/font = SubResource( 2 )
+Label/colors/font_color = Color( 1, 1, 1, 1 )
+Label/fonts/font = SubResource( 1 )
+LineEdit/constants/minimum_spaces = 3
+LineEdit/fonts/font = SubResource( 3 )
+OptionButton/fonts/font = SubResource( 4 )

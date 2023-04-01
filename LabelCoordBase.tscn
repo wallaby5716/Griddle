@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://MainTheme.tres" type="Theme" id=1]
+
+[node name="LabelCoordBase" type="Label"]
+visible = false
+margin_right = 126.0
+margin_bottom = 19.0
+theme = ExtResource( 1 )
+text = "This is a test"
